@@ -1,6 +1,6 @@
 FROM maven:3.6.3-jdk-8
 
-# Google Chrome
+# Google Chrome browsers
 
 ARG CHROME_VERSION=87.0.4280.88-1
 RUN wget -q -O - https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add - \
